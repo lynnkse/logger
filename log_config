@@ -1,0 +1,14 @@
+[#]
+Level = LOG_TRACE
+Path = ~/c/logger/
+File = def_log.log
+[mod1]
+Level = LOG_TRACE
+File = mod1_log.log
+[mod2]
+Level = LOG_FATAL
+File = mod2_log.log
+[mod3]
+Level = LOG_TRACE
+File = mod2_log.log
+
